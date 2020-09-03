@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1cc0dc18-afce-44c8-9258-18f1845ee557" name="cpz" url="http://202.121.181.113">
+        <fileTransfer host="202.121.181.113" port="22" rootFolder="/cluster/home/it_stu181/AlexNet_with_tensorflow" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

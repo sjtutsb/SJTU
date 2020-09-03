@@ -1,0 +1,16 @@
+2020-08-28 23:41:10.625879: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2020-08-28 23:41:13.261238: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:bd:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2020-08-28 23:41:13.261677: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2020-08-28 23:41:14.179157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-08-28 23:41:14.179616: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2020-08-28 23:41:14.179842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2020-08-28 23:41:14.180211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10420 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:bd:00.0, compute capability: 6.1)
+qt.qpa.plugin: Could not find the Qt platform plugin "offscreen" in "/cluster/home/it_stu181/.conda/envs/alexnet/lib/python3.6/site-packages/cv2/qt/plugins"
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: xcb.
+
+/var/spool/slurm/d/job606376/slurm_script: line 13:  1746 Aborted                 (core dumped) python3 testModel.py -m folder -p testModel
